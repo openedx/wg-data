@@ -1,0 +1,106 @@
+{
+	"_comment": "This xAPI statement attempts to fully map all the data represented in the canonical sample event here https://edx.readthedocs.io/projects/devdata/en/latest/internal_data_formats/tracking_logs/sample_events.html",
+	"id": "8f87ccde-bb56-4c2e-ab83-44982ef22df0",
+	"actor": {
+		"objectType": "Agent",
+		"account": {
+			"homepage": "https://openedx.org/",
+			"name": "b5059046-d6db-11ec-8490-381428857bd9"
+		}
+	},
+	"verb": {
+		"_comment": "The tracking event type this sample corresponds to is 'problem_check'",
+		"id": "http://adlnet.gov/expapi/verbs/answered",
+		"display": {
+			"en-US": "answered"
+		}
+	},
+	"object": {
+		"objectType": "Activity",
+		"_comment": "This URL is a placeholder utilizing the 'usage_key'.  Should be instance specific, but perhaps transferable across domains?",
+		"id": "https://openedx.org/block-v1:edX+DemoX+Demo_Course+type@problem+block@29c5cbd840324d94be8ba51db1864277",
+		"definition": {
+			"name": {
+				"en-US": "Which of the following is a fruit?"
+			},
+			"description": {
+				"en-US": "A diagnostic assessment related to fruit literacy."
+			},
+			"type": "http://adlnet.gov/expapi/activities/assessment"
+		},
+		"_comment1": "The choicehint content feels most natural here in the activity definition rather than the response.  It is packed into the user response in the current event format.",
+		"extensions": {
+			"https://openedx.org/xapi/choicehint": "<choicehint selected=\"true\">You are correct that an apple is a fruit because it is the fertilized ovary that comes from an apple tree and contains seeds.</choicehint>\n      <choicehint selected=\"false\">Remember that an apple is also a fruit.</choicehint>\n"
+		}
+	},
+	"result": {
+		"success": true,
+		"completion": true,
+		"_comment": "The response in Open edX events contains extra data about hints, what is the rationale for that, does it have a better home?",
+		"response": "apple",
+		"duration": "PT1M12S",
+		"score": {
+			"scaled": 1.0,
+			"raw": 1,
+			"min": 0,
+			"max": 1
+		},
+		"_comment1": "",
+		"extensions": {
+			"https://openedx.org/xapi/activity/attempts": 1,
+			"https://openedx.org/xapi/activity/seed": 1,
+			"https://openedx.org/xapi/result/correct_map": {
+				"29c5cbd840324d94be8ba51db1864277_2_1": {
+					"hint": "",
+					"hintmode": null,
+					"correctness": "incorrect",
+					"npoints": null,
+					"answervariable": null,
+					"msg": "<div class=\"feedback-hint-incorrect\"><div class=\"hint-label\">Incorrect: </div><div class=\"feedback-hint-multi\"><div class=\"hint-text\">You are correct that an apple is a fruit because it is the fertilized ovary that comes from an apple tree and contains seeds.</div><div class=\"hint-text\">Remember that a pumpkin is also a fruit.</div><div class=\"hint-text\">You are correct that a potato is a vegetable because it is an edible part of a plant in tuber form.</div><div class=\"hint-text\">Many people mistakenly think a tomato is a vegetable. However, because a tomato is the fertilized ovary of a tomato plant and contains seeds, it is a fruit.</div></div></div>",
+					"queuestate": null
+				}
+			}
+		}
+	},
+	"context": {
+		"registration": "123e4567-e89b-12d3-a456-426614174000",
+		"instructor": {
+			"objectType": "Agent",
+			"openid": "https://openedx.org/users/staff",
+			"name": "Staff User"
+		},
+		"team": {
+			"objectType": "Group",
+			"mbox": "mailto:staff@openedx.org",
+			"name": "Open edX Staff"
+		},
+		"contextActivities": {
+			"parent": [
+				{
+					"id": "https://openedx.org/block-v1:edX+DemoX+Demo_Course"
+				}
+			]
+		},
+		"extensions": {
+			"http://id.tincanapi.com/extension/browser-info": {
+				"code_name": "Mozilla",
+				"name": "Netscape",
+				"version": "5.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.152 Safari/537.36",
+				"platform": "MacIntel",
+				"user-agent-header": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.152 Safari/537.36",
+				"cookies-enabled": true
+			},
+			"http://id.tincanapi.com/extension/ip-address": "10.0.0.1",
+			"https://openedx.org/context/referrer": "https://openedx.org/courses/course-v1:edX+DemoX+Demo_Course/courseware/d8a6192ade314473a78242dfeedfbf5b/330cf4d0c87b4bddbbd2eb4a466ff9f4/1?activate_block_id=block-v1%3AedX%2BDemoX%2BDemo_Course%2Btype%40vertical%2Bblock%40541e3597470c4c0d8ab11f6ac443fd5d",
+			"https://openedx.org/context/accept_language": "en;q=1.0, en;q=0.8",
+			"https://openedx.org/context/event_source": "server",
+			"https://openedx.org/context/asides": {},
+			"https://openedx.org/context/course_id": "course-v1:edX+DemoX+Demo_Course",
+			"https://openedx.org/context/path": "/courses/course-v1:edX+DemoX+Demo_Course/xblock/block-v1:edX+DemoX+Demo_Course+type@problem+block@29c5cbd840324d94be8ba51db1864277/handler/xmodule_handler/problem_check",
+			"https://openedx.org/context/org_id": "Open edx",
+			"https://openedx.org/context/course_user_tags": {}
+		}
+	},
+	"timestamp": "2022-05-18T16:00:00.633Z",
+	"version": "1.0.3"
+}
