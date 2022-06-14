@@ -12,7 +12,8 @@
 		"_comment": "The tracking event type this sample corresponds to is 'problem_check'",
 		"id": "http://adlnet.gov/expapi/verbs/answered",
 		"display": {
-			"en-US": "answered"
+			"en-US": "answered",
+			"es-ES": "respondido"
 		}
 	},
 	"object": {
@@ -21,7 +22,8 @@
 		"id": "https://openedx.org/xblock/block-v1:edX+DemoX+Demo_Course+type@problem+block@29c5cbd840324d94be8ba51db1864277",
 		"definition": {
 			"name": {
-				"en-US": "Which of the following is a fruit?"
+				"en-US": "Which of the following is a fruit?",
+				"es-ES": "¿Cuál de las siguientes es una fruta?"
 			},
 			"description": {
 				"en-US": "A diagnostic assessment related to fruit literacy."
@@ -35,25 +37,29 @@
 				{
 					"id": "apple",
 					"description": {
-						"en": "apple"
+						"en-US": "apple",
+						"es-ES": "manzana"
 					}
 				},
 				{
 					"id": "pumpkin",
 					"description": {
-						"en": "pumpkin"
+						"en-US": "pumpkin",
+						"es-ES": "calabaza"
 					}
 				},
 				{
 					"id": "potato",
 					"description": {
-						"en": "potato"
+						"en-US": "potato",
+						"es-ES": "potata"
 					}
 				},
 				{
 					"id": "tomato",
 					"description": {
-						"en": "tomato"
+						"en-US": "tomato",
+						"es-ES": "tomate"
 					}
 				}
 			]
