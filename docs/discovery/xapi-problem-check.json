@@ -126,6 +126,7 @@
 				"user-agent-header": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.152 Safari/537.36",
 				"cookies-enabled": true
 			},
+			"https://w3id.org/xapi/cmi5/context/extensions/sessionid": "3908784c-bf7a-445f-a887-0d1565baa06d",
 			"http://id.tincanapi.com/extension/ip-address": "10.0.0.1",
 			"http://id.tincanapi.com/extension/referrer": "https://openedx.org/courses/course-v1:edX+DemoX+Demo_Course/courseware/d8a6192ade314473a78242dfeedfbf5b/330cf4d0c87b4bddbbd2eb4a466ff9f4/1?activate_block_id=block-v1%3AedX%2BDemoX%2BDemo_Course%2Btype%40vertical%2Bblock%40541e3597470c4c0d8ab11f6ac443fd5d",
 			"https://openedx.org/context/accept_language": "en;q=1.0, en;q=0.8",
