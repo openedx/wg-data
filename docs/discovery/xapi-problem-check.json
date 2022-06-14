@@ -29,29 +29,29 @@
 			"type": "http://adlnet.gov/expapi/activities/assessment",
 			"interactionType": "choice",
 			"correctResponsePattern": [
-				"foo"
+			    "apple[,]pumpkin[,]tomato"
 			],
 			"choices": [
 				{
-					"id": "0",
+					"id": "apple",
 					"description": {
 						"en": "apple"
 					}
 				},
 				{
-					"id": "1",
+					"id": "pumpkin",
 					"description": {
 						"en": "pumpkin"
 					}
 				},
 				{
-					"id": "2",
+					"id": "potato",
 					"description": {
 						"en": "potato"
 					}
 				},
 				{
-					"id": "3",
+					"id": "tomato",
 					"description": {
 						"en": "tomato"
 					}
