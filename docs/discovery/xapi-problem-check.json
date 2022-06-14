@@ -28,7 +28,7 @@
 			"description": {
 				"en-US": "A diagnostic assessment related to fruit literacy."
 			},
-			"type": "http://adlnet.gov/expapi/activities/assessment",
+			"type": "http://adlnet.gov/expapi/activities/question",
 			"interactionType": "choice",
 			"correctResponsePattern": [
 			    "apple[,]pumpkin[,]tomato"
