@@ -31,7 +31,7 @@
 			"type": "http://adlnet.gov/expapi/activities/question",
 			"interactionType": "choice",
 			"correctResponsePattern": [
-			    "apple[,]pumpkin[,]tomato"
+				"apple[,]pumpkin[,]tomato"
 			],
 			"choices": [
 				{
