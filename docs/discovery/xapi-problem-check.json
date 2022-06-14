@@ -18,7 +18,7 @@
 	"object": {
 		"objectType": "Activity",
 		"_comment": "This URL is a placeholder utilizing the 'usage_key'.  Should be instance specific, but perhaps transferable across domains?",
-		"id": "https://openedx.org/block-v1:edX+DemoX+Demo_Course+type@problem+block@29c5cbd840324d94be8ba51db1864277",
+		"id": "https://openedx.org/xblock/block-v1:edX+DemoX+Demo_Course+type@problem+block@29c5cbd840324d94be8ba51db1864277",
 		"definition": {
 			"name": {
 				"en-US": "Which of the following is a fruit?"
