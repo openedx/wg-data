@@ -56,9 +56,6 @@
 						"en": "tomato"
 					}
 				}
-
-
-
 			]
 		},
 		"_comment1": "The choicehint content feels most natural here in the activity definition rather than the response.  It is packed into the user response in the current event format.",
