@@ -26,8 +26,40 @@
 			"description": {
 				"en-US": "A diagnostic assessment related to fruit literacy."
 			},
-		    "type": "http://adlnet.gov/expapi/activities/assessment",
-		    "interactionType": "choice"
+			"type": "http://adlnet.gov/expapi/activities/assessment",
+			"interactionType": "choice",
+			"correctResponsePattern": [
+				"foo"
+			],
+			"choices": [
+				{
+					"id": "0",
+					"description": {
+						"en": "apple"
+					}
+				},
+				{
+					"id": "1",
+					"description": {
+						"en": "pumpkin"
+					}
+				},
+				{
+					"id": "2",
+					"description": {
+						"en": "potato"
+					}
+				},
+				{
+					"id": "3",
+					"description": {
+						"en": "tomato"
+					}
+				}
+
+
+
+			]
 		},
 		"_comment1": "The choicehint content feels most natural here in the activity definition rather than the response.  It is packed into the user response in the current event format.",
 		"extensions": {
