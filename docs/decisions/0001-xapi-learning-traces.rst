@@ -11,7 +11,7 @@ Context
 
 Currently this document is only for capturing the design consideration for making xAPI the canonical event format for platform learning analytics.
 
-This work would evolve from this `https://discuss.openedx.org/t/proposal-embargo-and-replace-the-native-open-edx-eventing-subsystem/7353<high-level proposal>`_
+This work would evolve from `this high-level proposal <https://discuss.openedx.org/t/proposal-embargo-and-replace-the-native-open-edx-eventing-subsystem/7353`_
 
 Design Considerations:
 
