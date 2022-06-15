@@ -113,7 +113,15 @@
 		"contextActivities": {
 			"parent": [
 				{
-					"id": "https://openedx.org/block-v1:edX+DemoX+Demo_Course"
+					"id": "https://openedx.org/block-v1:edX+DemoX+Demo_Course",
+					"objectType": "Activity",
+					"definition": {
+						"name": {
+							"en-US": "Demonstration Course",
+							"es-ES": "Curso de Demostración"
+						},
+						"type": "http://adlnet.gov/expapi/activities/course"
+					}
 				}
 			]
 		},
