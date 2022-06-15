@@ -70,7 +70,7 @@
 		}
 	},
 	"result": {
-		"success": false
+		"success": false,
 		"completion": true,
 		"_comment": "The response in Open edX events contains extra data about hints, what is the rationale for that, does it have a better home?",
 		"response": "apple",
